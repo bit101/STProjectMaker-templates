@@ -7,14 +7,12 @@ Usage:
 
 1. Clone or download this repository.
 
-2. Do one of the following:
+2. Do one of the following (3 or 4):
 
-2a. Copy the templates you want into wherever you have STProjectMaker looking for your templates.
+3. Either... copy the templates you want into wherever you have STProjectMaker looking for your templates.
 
-or
+4. Or... change your `template_path` setting in STProjectMaker to point to wherever you just cloned this repo.
 
-2b. Change your `template_path` setting in STProjectMaker to point to wherever you just cloned this repo.
+5. Add your own templates or customize those here.
 
-3. Add your own templates or customize those here.
-
-4. If you come up with a new tamplate that might be useful to others, send a pull request.
+6. If you come up with a new tamplate that might be useful to others, send a pull request.
