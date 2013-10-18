@@ -2,7 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "."
+			"path": "$project_path"
 		}
 	],
 	"build_systems":
