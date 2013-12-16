@@ -1,0 +1,5 @@
+name 'puppet-${project_name}'
+version '...'
+summary '...'
+description "${project_name} is a module to ..."
+project_page "..."
