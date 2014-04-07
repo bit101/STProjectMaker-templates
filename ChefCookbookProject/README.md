@@ -1,4 +1,4 @@
-apache Cookbook
+${project_name} Cookbook
 ===============
 TODO: Enter the cookbook description here.
 
@@ -18,7 +18,7 @@ Attributes
 TODO: List you cookbook attributes here.
 
 e.g.
-#### apache::default
+#### ${project_name}::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['apache']['bacon']</tt></td>
+    <td><tt>['${project_name}']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### apache::default
+#### ${project_name}::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `apache` in your node's `run_list`:
+Just include `${project_name}` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[apache]"
+    "recipe[${project_name}]"
   ]
 }
 ```
