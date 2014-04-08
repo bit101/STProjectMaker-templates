@@ -1,5 +1,5 @@
-TODO: Delete the following two lines, as they only relate to the STProjectMaker template.
-This template is used to create new chef cookbook projects (equivalent of running 'knife cookbook create'). 
+TODO: Delete the following two lines after a new project is created, as they only relate to the STProjectMaker template.
+This template is used to create new [Chef](http://www.getchef.com) cookbook projects (equivalent of running 'knife cookbook create'). 
 It is recommended to place your new cookbook project in your chef home directory under your cookbooks directory. .gitignore files were placed in directories that don't have files created by default by knife since git does not allow empty directories in repo's.
 
 
