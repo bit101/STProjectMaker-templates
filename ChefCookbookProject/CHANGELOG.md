@@ -1,11 +1,11 @@
-apache CHANGELOG
+${project_name} CHANGELOG
 ================
 
-This file is used to list changes made in each version of the apache cookbook.
+This file is used to list changes made in each version of the ${project_name} cookbook.
 
 0.1.0
 -----
-- [your_name] - Initial release of apache
+- [your_name] - Initial release of ${project_name}
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
