@@ -1,0 +1,14 @@
+{
+  "folders":
+  [
+    {
+      "path": "${project_path}"
+    }
+  ],
+    "build_systems":
+  [
+    {
+      "name": "RakeBuild",
+      "cmd": ["rake", "all"]
+
+}

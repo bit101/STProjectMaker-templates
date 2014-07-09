@@ -1,0 +1,29 @@
+{
+  "folders":
+  [
+    {
+      "path": "${project_path}"
+    }
+  ],
+  "build_systems":
+  [
+    {
+      "name":"Make",
+
+      "linux":
+      {
+        "cmd":["make", "$project_path/src/Makefile"]
+      },
+
+      "osx":
+      {
+        "cmd":["make", "$project_path/src/Makefile"]
+      },
+
+      "windows":
+      {
+        "cmd":["cmd", "/c", "dmake", "$project_path/src/Makefile"]
+      }
+    }
+  ]
+}
