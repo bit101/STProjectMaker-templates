@@ -5,7 +5,7 @@ require 'beaker-rspec/helpers/serverspec'
 unless ENV['RS_PROVISION'] == 'no'
   hosts.each do |host|
     if host['platform'] =~ /debian/
-      on host, 'echo \'export PATH=/var/lib/gems/1.8/bin/:${PATH}\' >> ~/.bashrc'
+      on host, 'echo \'export PATH=/var/lib/gems/1.8/bin/:$PATH\' >> ~/.bashrc'
     end
     if host.is_pe?
       install_pe
