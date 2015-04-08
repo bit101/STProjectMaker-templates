@@ -8,16 +8,13 @@
 			name : "${application_name}",
 			package : "com.${author}.${application_name}",
 		},
-
+		
 		build : {
 			dependencies : {
-				luxe : "*",
 			}
 		},
 
 		files : {
-			config : "config.json",
-			assets : "assets/"
 		}
 	}
 }
