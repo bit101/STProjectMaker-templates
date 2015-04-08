@@ -7,16 +7,17 @@
 		app : {
 			name : "${application_name}",
 			package : "com.${author}.${application_name}",
-		}
-	},
+		},
 
-	build : {
-		dependencies : {
-			luxe : "*",
-		}
-	},
+		build : {
+			dependencies : {
+				luxe : "*",
+			}
+		},
 
-	files : {
-		assets : "assets/"
+		files : {
+			config : "config.json",
+			assets : "assets/"
+		}
 	}
 }
